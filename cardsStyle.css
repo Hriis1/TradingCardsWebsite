@@ -1,0 +1,281 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 80px;
+  width: 100%;
+  background: black;
+}
+.heading {
+  display: flex;
+}
+.heading ul{
+	display: flex;
+}
+
+.heading ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+  position: relative;
+  color: white;
+  margin: 2px 30px;
+  font-size: 18px;
+  transition-duration: 1s;
+}
+.heading ul li a:hover {
+  color: rgb(243, 168, 7);
+  transition-duration: 1s;
+}
+
+
+.dropbtn {
+  background: black;
+  color: white;
+  font-size: 18px;
+  border: none;
+  transition-duration: 1s;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-content a img{
+  width: 350px;
+  height: 130px;
+  color: black;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {
+  color: rgb(243, 168, 7);
+  transition-duration: 1s;
+}
+
+.logo a {
+  font-size: 35px;
+  font-weight: 500;
+  text-decoration: none;
+  color: white;
+  transition-duration: 1s;
+  font-weight: 800;
+}
+.logo a:hover {
+  color: rgb(240, 197, 6);
+  transition-duration: 1s;
+}
+ion-icon {
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  color: black;
+}
+ion-icon:hover {
+  cursor: pointer;
+}
+
+header a ion-icon {
+  position: relative;
+  right: 3px;
+}
+
+.heading1 {
+  opacity: 0;
+}
+
+.section
+{
+	display: flex;
+	margin-top: 100px;
+	margin-bottom: 40px;
+	width: 100%;
+	height: 680px;
+}
+.image-container img
+{
+	width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.data-container {
+	margin-left: 20px;
+	margin-right: 20px;
+	border-radius: 10px;
+	border: 1px solid black;
+    flex-grow: 1;
+	
+}
+.product-name
+{
+	display: flex;
+    justify-content: center;
+	align-items: center;
+	background-color: rgba(220, 226, 230, 0.5);
+	height: 10%;
+}
+
+.product-data
+{
+	display: flex;
+    flex-direction: column;
+	height: 90%;
+	border-radius: 10px;
+}
+.product-description
+{
+	display: flex;
+	height: 14%;
+	border: 1px solid black;
+}
+.product-description-fill
+{
+	display: flex;
+	border: 1px solid black;
+	flex-grow: 1;
+}
+.product-description-headeing
+{
+	background-color: rgba(179, 184, 167, 0.5);	
+	width: 20%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.product-description-desc
+{
+	background-color: rgba(226, 232, 211, 0.5);	
+	flex-grow: 1;
+	display: flex;
+	align-items: center;
+	text-indent: 1em;
+	font-size: 18px;
+}
+.forms-container
+{
+	display: flex;
+	justify-content: center;
+	margin-bottom: 20px;
+}
+.form-container
+{
+	margin-left: 100px;
+	width: 300px;
+	
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.purchase-form-container label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 5px;
+}
+
+button[type="submit"]{
+    background-color: #45a049;
+	padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+}
+.review {
+	 display: flex;
+    align-items: center;
+    justify-content: center;
+	min-height: 150px;
+    width: 700px;
+    padding: 20px;
+    background-color: rgba(237, 220, 173, 0.5);
+    margin: 50px auto;
+	border-radius: 10px;
+	border: 1px solid black;
+}
+
+.review-text {
+    font-size: 18px;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  align-items: center;
+  color: white;
+}
+.footer0 {
+  font-weight: 1200;
+  transition-duration: 1s;
+}
+.footer0:hover {
+  color: rgb(243, 168, 7);
+}
+
+.footer1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  margin-top: 15px;
+}
+.social-media {
+  display: flex;
+  justify-content: center;
+  color: white;
+  flex-wrap: wrap;
+}
+.social-media a {
+  color: white;
+  margin: 20px;
+  border-radius: 5px;
+  margin-top: 10px;
+  color: white;
+}
+.social-media a ion-icon {
+  color: white;
+  background-color: black;
+}
+.social-media a:hover ion-icon {
+  color: red;
+  transform: translateY(5px);
+}
+.items {
+  overflow: hidden;
+}
+
+
+
+
+
+
